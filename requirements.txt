@@ -1,0 +1,14 @@
+bcrypt
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+pydantic
+passlib
+langchain-groq
+langchain_community
+langchain
+sentence_transformers
+python-multipart
+chromadb
+rank_bm25

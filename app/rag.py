@@ -13,7 +13,6 @@ from langchain.retrievers import BM25Retriever, EnsembleRetriever
 from dotenv import load_dotenv
 load_dotenv()
 hf_api_key = os.getenv("HF_TOKEN")
-# hf_api_key = "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"
 class CustomEmbeddings:
     def __init__(self, model_name: str, batch_size: int = 32):
         self.model = SentenceTransformer(model_name)
